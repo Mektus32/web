@@ -1,3 +1,78 @@
-#name {
-
+html {
+    font-family: "Times New Roman", serif;
+    font-size: 22px;
+}
+body {
+    padding: 40px;
+    background: #416064 url("/public/source/фон.jpg") fixed;
+    background-size: cover;
+}
+span {background: #cac4bb;}
+#photo {
+    float: right;
+    margin-right: 100px;
+    width: 300px;
+    outline: 2px solid;
+    outline-color: rgb(255, 0, 0);
+}
+ul {
+    margin-left: 100px;
+    display: inline-block;
+    background: #cac4bb;
+    text-align: left;
+}
+table {
+    margin-left: 55px;
+    display: inline-block;
+    background: #cac4bb;
+    text-align: center;
+}
+td {border: 2px solid #000;}
+#buttons {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#photo_next {
+    /*display:block;*/
+    float: right;
+    margin-right: 70px;
+    background: #d4315e;
+    font-size: 20px;
+}
+#photo_prev {
+    /*display:block;*/
+    float: right;
+    margin-left: 70px;
+    background: #d4315e;
+    font-size: 20px;
+}
+.photo-button{
+    background: #d4315e; font-size: 20px;
+}
+.photo-button:hover {
+    background: #ae2828;
+}
+.photo-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #ff69ba;
+}
+.lab2-button {
+    background: #d4315e;font-size: 20px;
+}
+.lab2-button:hover {
+    background: #5f1c3e;
+}
+.lab2-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #f36060;
+}
+.languages-button {
+    background: #9f4bf3;font-size: 20px;
+}
+.languages-button:hover {
+    background: #331c4a;
+}
+.languages-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #aa71ee;
 }

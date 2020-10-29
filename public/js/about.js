@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    const time = 800;
+    let index = 0;
+
     $(".languages-button").click(function () {
         $("#languages").toggle("hidden");
     });
@@ -7,10 +10,21 @@ $(document).ready(function () {
         location.href="/math";
     });
 
-    let index = 1;
-    $(".photo-button").click(function () {
-        index %= 4;
-        $(".image").attr("src", "public/source/my_photo" + index + ".jpg");
+    $("#photo_next").click(function () {
         ++index;
+        index %= 3;
+        $(".image").fadeOut(time, function () {
+            $(this).attr("src", "public/source/" + index + ".jpg").fadeIn(time);
+        });
+    });
+
+    $("#photo_prev").click(function () {
+        --index;
+        if (index < 0) {
+            index = 2
+        }
+        $(".image").fadeOut(time, function () {
+            $(this).attr("src", "public/source/" + index + ".jpg").fadeIn(time);
+        });
     });
 });

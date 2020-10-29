@@ -8,45 +8,54 @@
 </head>
 <body>
     <div align="center">
-        <h1><span>Моя страничка</span></h1>
+        <h1>Моя страничка</h1>
         <h2 id="name">Тарасьян Михаил Георгиевич</h2>
     </div>
     <div align="right">
-        <img src="../public/source/my_photo0.jpg" class="image" id="photo" alt="my_photo"><br>
-        <button class="photo-button" type="button">Следующее фото</button>
+        <img src="../public/source/0.jpg" class="image" id="photo" alt="my_photo"><br>
     </div>
+    <p></p>
     <div>
         <ul>
             <li>19 лет</li>
             <li>3 курс</li>
-            <li>Козерог</li>
-            <li>Родной город - Казань</li>
-            <li>Любимый фильм - Властелин колец</li>
-            <li>Закончила художественную школу</li>
+            <li>Проживаю в Москве</li>
+            <li>Старший инженер по разработке в сбере</li>
+            <li>Любимый фильм - Игра Эндера</li>
+            <li>Главный импостер</li>
+            <li>Ведьмак</li>
+            <li>Пишу "Hello World" - знаю язык</li>
+            <li>Discord: Mektus#6508</li>
         </ul>
+    </div>
+    <div>
+        <button class="photo-button" type="button" id="photo_next">Следующее фото</button>
+        <button class="photo-button" type="button" id="photo_prev">Предыдущее фото</button>
     </div>
     <div id="languages" hidden>
         <table>
             <tr>
-                <td>Область применения</td>
-                <td>Языки которые я знаю</td>
+                <th>Языки которые я знаю</th>
+                <th>Область применения</th>
             </tr>
             <tr>
-                <td>Web</td>
                 <td>html, css, js, python</td>
+                <td>Web</td>
             </tr>
             <tr>
-                <td>Прикладное программирование</td>
                 <td>C, C++, C#, Java, Python</td>
+                <td>Прикладное программирование</td>
             </tr>
             <tr>
-                <td>Базы данных</td>
                 <td>SQL</td>
+                <td>Базы данных</td>
             </tr>
         </table>
     </div>
-    <button class="languages-button" type="button">Языки</button><br>
-    <button class="lab2-button" type="button">Лаба №2</button>
+    <p id="buttons">
+        <button class="languages-button" type="button">Языки</button>
+        <button class="lab2-button" type="button">Лаба №2</button>
+    </p>
 </body>
     <script src="../public/js/about.js"></script>
 </html>
