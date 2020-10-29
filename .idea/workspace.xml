@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18804ae2-ef2e-46b7-8a20-90640b0a7c73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/math.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/math.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/source/my_photo0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/source/my_photo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/source/my_photo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/math.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
       <updated>1603782147253</updated>
       <workItem from="1603782148786" duration="12362000" />
       <workItem from="1603908038936" duration="5589000" />
-      <workItem from="1603981926347" duration="1445000" />
+      <workItem from="1603981926347" duration="4168000" />
     </task>
     <servers />
   </component>
@@ -84,21 +76,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1603982651173">
+    <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603983568066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603982651173" />
-    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1603982651173">
+    <state x="722" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603983568066" />
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1603983403641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603982651173" />
-    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1603982651173">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603983403641" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1603983403641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603982651173" />
-    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1603982651173">
+    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603983403641" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1603983403641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603982651173" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603983403641" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1603983403641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603983403641" />
   </component>
 </project>
