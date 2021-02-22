@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <input id="radiocat" type="radio" name="api" value="cats" checked>
+        <label for="radiocat">Выбрать API котов</label><br>
+        <input id="radioletter" type="radio" name="api" value="letters">
+        <label for="radioletter">Выбрать API фраз</label><br>
+    </div>
+    <div id="cats">
+        <label>Коты и коды</label><br>
+        <button id="allowed">Посмотреть доступные</button><br>
+        <p id="help" hidden>
+            100: "Continue", 101: "Switching protocol", 102: "Processing", 200: "Ok",
+            201: "Created", 202: "Accepted", 204: "No content", 206: "Partial content",
+            207: "Multi-Status", 300: "Multiple Choices", 301: "Moved Permanently",
+            302: "Found", 303: "Se Other", 304: "Not Modified", 305: "Use Proxy",
+            307: "Temporary direct", 400: "Bad request", 401: "Authorized",
+            402: "Payment Required", 403: "Forbidden", 404: "Not Found",
+            405: "Method not allowed", 406: "Not Acceptable", 408: "Request Timeout",
+            409: "Conflict", 410: "Gone", 411: "Length Required"
+        </p>
+        <label>Введите код</label>
+        <input type="number" step="1">
+    </div>
+    <div id="letters" hidden>
+        <label>letters</label><br>
+        <select id="phase" size="5"></select>
+    </div>
+    <label id="label">kek</label>
+    <button id="click">Click</button>
+</body>
+    <script src="requests.js"></script>
+</html>
