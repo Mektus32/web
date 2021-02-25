@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Числа</title>
+    <h3>Числа</h3>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div>
-        <dib>
-            <label>Числа</label><br>
-        </dib>
         <div>
-            <label class="form-check-label">Формат числа</label><br>
+            <label class="form-check-label"><b>Формат числа</b></label><br>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="number" id="inputInt" value="int" checked>
                 <label class="form-check-label" for="inputInt">
@@ -34,7 +33,7 @@
             </div>
         </div>
         <div>
-            <label class="form-check-label">Тип числа</label><br>
+            <label class="form-check-label"><b>Тип числа</b></label><br>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="type" id="inputTrivial" value="trivial" checked>
                 <label class="form-check-label" for="inputTrivial">
@@ -64,19 +63,19 @@
             <label>Ввод</label><br>
             <div class="input-group" id="numberDiv">
                 <span class="input-group-text">Число</span>
-                <input type="number" step="1" class="form-control" id="number">
+                <input type="number" step="1" class="form-control" id="number" value="0">
             </div>
             <div class="input-group mb-3" id="dateDiv">
                 <span class="input-group-text">Месяц</span>
-                <input type="number" step="1" class="form-control" id="dateMonth">
+                <input type="number" step="1" class="form-control" id="dateMonth" value="0"><Br>
                 <span class="input-group-text">День</span>
-                <input type="number" step="1" class="form-control" id="dateDay">
+                <input type="number" step="1" class="form-control" id="dateDay" value="0">
             </div>
             <div class="input-group mb-3" id="rangeDiv">
                 <span class="input-group-text">Старт</span>
-                <input type="number" step="1" class="form-control" id="startRange">
+                <input type="number" step="1" class="form-control" id="startRange" value="0"><Br>
                 <span class="input-group-text">Конец</span>
-                <input type="number" step="1" class="form-control" id="endRange">
+                <input type="number" step="1" class="form-control" id="endRange" value="0">
             </div>
             <button id="click" type="button" class="btn btn-primary">Click</button>
         </div>

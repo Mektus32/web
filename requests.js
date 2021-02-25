@@ -72,5 +72,5 @@ $(document).ready(function () {
         $("#dateDiv").hide();
         $("#rangeDiv").hide();
     }
-    hideAll();
+    updateInput();
 });
